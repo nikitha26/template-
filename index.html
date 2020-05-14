@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>My template</title>
+     <style>
+        .homepage {
+            margin: 0px;
+            background-color: rgb(10,24,61);
+            height:1000px;
+        }
+        </style> 
+</head>
+<body data-spy="scroll" data-target=".navbar">
+    <!-- navbar Started -->
+    <div class="homepage">
+       <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="#" >LISTEN MUSIC
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mainmenu">
+                MENU<span class="navbar-toggler-icon"></span>
+            </button> 
+            <div class="collapse navbar-collapse" id="mainmenu">
+                <ul class="navbar-nav justify-content-center">
+                    <li class="nav-item "><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#types">Types Of Music</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Prices</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="color:rgb(179,9,84);">Signin</a></li>
+                </ul>
+            </div>      
+        </nav>
+      <!-- navbar End -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-8 home">
+                    <h1>Learn Music</h1> 
+                    <p>All sound, with the exception of pure noise, has some structure and, often, periodicity. This is especially 
+                        true of music, where structure and periodicity is manifest in both the time and frequency domains - i.e. in 
+                        rhythm and in pitch. 
+                    </p><br><br>
+                    <button type="button" class="btn-lg" id="button">
+                        Start Free Trail
+                    </button>
+                    <button type="button" class="btn-lg" id="button">
+                        Download
+                    </button>
+                 </div>
+            </div>
+        </div>    
+    </div>
+    <!-- About -->
+    <div class="container" id="about">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <h2 class="heading">About My Music</h2>
+                <h5>
+                   This advocates the use of data types containing structure and periodicity in the algorithmic generation of music. 
+                </h5>
+                <h5>  
+                    Depending on theorigin, text data satisfies these conditions to various degrees: on a fundamental level, there are
+                   only 26 letters in the English Alphabet, so the mapping of individual letters to pitches will yield some repetition.
+                </h5>  
+                <h5>
+                   Rhythmic structure can be found in such language forms as poetry, and can also be extracted from such features as 
+                   word length and sentence length. and can also be extracted from such features as 
+                   word length and sentence length. 
+                </h5>
+                <button type="button" class="btn-lg" id="button">
+                    Readmore
+                </button>
+            </div>    
+            <div class="col-lg-6 col-md-8">      
+                <img src="image/professor-435106_640%20(copy).png" class=" image img-thumbnail" alt="musicimg">
+            </div>
+        </div>    
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12"  >
+                <img src="image/cornet-593661_640.png"class="image img-thumbnail" alt="musicimg">
+            </div>  
+            <div class="col-lg-4 col-md-6 col-sm-12"  >
+                <img src="image/music-students-246844_640.png" class=" image img-thumbnail" alt="musicimg">
+            </div>  
+            <div class="col-lg-4 col-md-6 col-sm-12"  >
+                <img src="image/friends-4359107_640.png" class=" image img-thumbnail" alt="musicimg">
+            </div>  
+        </div>    
+    </div>
+    <!-- About Ended -->
+
+
+    <!-- Types of music -->
+    <div class="musictypes" id="types">
+        <div class="container container-fliud">
+            <div class="row"> 
+                <h1>Types Of Music</h1>
+                <div class="card-deck">
+                    <div class="card">
+                        <div class="card-body ">
+                            <h3 class="text-center">Fiddle Music</h3>
+                            <img src="image/pic3%20(1)%20(1).png" alt="pic" class="img-responsive img-thumbnail">
+                            <button type="button" class="btn-lg" id="button">
+                                See more
+                            </button>
+                        </div>        
+                    </div>     
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="text-center">Rhythum</h3>
+                            <img src="image/pic2%20(1).png" alt="pic" class="img-responsive img-thumbnail" >
+                            <button type="button" class="btn-lg" id="button">
+                                See more
+                            </button>
+                        </div>       
+                    </div>    
+                    <div class="card ">
+                        <div class="card-body">
+                            <h3 class="text-center">Indie Rock</h3>
+                            <img src="image/pic1.png " alt="pic" class="img-responsive img-thumbnail">
+                            <button type="button" class="btn-lg" id="button">
+                                See more
+                             </button>
+                        </div>   
+                    </div>     
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <!--Types of music end  -->
+   
+</body>
+</html>

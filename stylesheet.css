@@ -1,0 +1,71 @@
+html {
+    scroll-behavior: smooth;
+  }
+.nav-item{
+    margin: 3px;
+    padding: 5px;
+}
+.navbar-brand{
+    margin: 10px;
+}
+.container{
+    margin:10px;
+}
+.home{
+    margin-top: 300px;
+    margin-left: 50px;
+}
+h1 {
+    color: rgb(179,9,84);
+}
+p{
+    color:white;
+}
+.btn-lg {
+    background-color:rgb(179,9,84);;
+    color:white;
+    margin: 8px;
+   
+}
+#button{
+   border-radius: 30px;
+   padding: 15px 25px;
+    border: none;
+    
+}
+button:focus {
+    outline:none  !important;
+     
+}
+.about{
+    
+}
+.heading {
+    font-size:xx-large;
+    font-weight: bold;
+    color:rgb(179,9,84); 
+    margin-top: 150px;
+}
+h5{
+    text-align: left;
+    margin-top: 20px;
+}
+.image{
+    margin-top: 150px;
+}
+ .musictypes{
+    background-image:url('image/milky-way-2675322_1280%20(1).png');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    min-height: 800px;
+    margin-top: 150px;
+} 
+.card{
+    margin-top: 100px;
+}
+h3{
+    color:rgb(179,9,84);
+}
+img{
+        bor
+}
