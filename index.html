@@ -31,9 +31,8 @@
                     <li class="nav-item "><a class="nav-link" href="#">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#types">Types Of Music</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Prices</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#" style="color:rgb(179,9,84);">Signin</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#signin" style="color:rgb(179,9,84);">Signin</a></li>
                 </ul>
             </div>      
         </nav>
@@ -100,11 +99,12 @@
     <div class="musictypes" id="types">
         <div class="container container-fliud">
             <div class="row"> 
-                <h1>Types Of Music</h1>
+                <h1 style="text-align:center; margin-top:80px;">Types Of Music</h1>
                 <div class="card-deck">
+                   
                     <div class="card">
                         <div class="card-body ">
-                            <h3 class="text-center">Fiddle Music</h3>
+                            <h3 class="text-center">Fiddle </h3>
                             <img src="image/pic3%20(1)%20(1).png" alt="pic" class="img-responsive img-thumbnail">
                             <button type="button" class="btn-lg" id="button">
                                 See more
@@ -122,7 +122,7 @@
                     </div>    
                     <div class="card ">
                         <div class="card-body">
-                            <h3 class="text-center">Indie Rock</h3>
+                            <h3 class="text-center">Rock</h3>
                             <img src="image/pic1.png " alt="pic" class="img-responsive img-thumbnail">
                             <button type="button" class="btn-lg" id="button">
                                 See more
@@ -132,9 +132,47 @@
                 </div>
                 </div>
             </div>
+            
         </div>
     </div>  
     <!--Types of music end  -->
-   
+
+    <!-- Sign in -->
+    <div id="signin">
+        <form  class="form-container"action="/action_page.php">
+            <div class="container">
+                <h1 id="form" class="text-center"> Signin Form</h1>
+                Enter Email:
+                <input type="email" class="form-control"  placeholder="Enter email">
+                Enter Password:
+                <input type="password" class="form-control"  placeholder="Enter password">
+                <button type="button" class="btn-lg" id="button">
+                    Sign in
+                </button>  <br><br>
+                <button type="button" class="btn-lg" id="button"> <b>Subscribe Our Learn Music</b></button>  
+            </div>   
+        </form>
+    </div>  
+    <!-- Sign in end -->
+
+    <!-- Contactus -->
+    <div class="contact" id="contact">
+            <form action="/action_page.php">  
+                <div class="container ">
+                    <h1 id="form" class="text-center">Contact us</h1>
+                    <input type="text" class="form-control" placeholder="FirstName">
+                    <input type="text" class="form-control" placeholder="LastName">
+                    <button type="button" class="btn-lg" id="button"> <b>Submit</b></button>  
+                    <br><br>
+                   <a href="https://www.facebook.com" target="blank">
+                     Follow in Facebook
+                    </a><br>
+                    <a href="https://www.instagram.com" target="blank">
+                       Follow in Instagram
+                     </a>
+              
+             
+             </form>
+   </div>
 </body>
 </html>

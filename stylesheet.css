@@ -17,6 +17,8 @@ html {
 }
 h1 {
     color: rgb(179,9,84);
+    
+
 }
 p{
     color:white;
@@ -37,9 +39,6 @@ button:focus {
     outline:none  !important;
      
 }
-.about{
-    
-}
 .heading {
     font-size:xx-large;
     font-weight: bold;
@@ -53,19 +52,37 @@ h5{
 .image{
     margin-top: 150px;
 }
- .musictypes{
+.musictypes{
     background-image:url('image/milky-way-2675322_1280%20(1).png');
     background-repeat: no-repeat;
     background-position: 100%;
     min-height: 800px;
-    margin-top: 150px;
-} 
+    margin-top: 90px;
+}  
 .card{
-    margin-top: 100px;
+    margin-top: 110px;
 }
 h3{
     color:rgb(179,9,84);
 }
-img{
-        bor
+#signin{
+    margin-top: 150px;
+}
+.form-control{
+    margin: 30px;
+}
+#form{
+    color: rgb(179,9,84);
+    
+}
+.form-container{
+   background-color: #fff;
+   padding: 135px;
+   border-radius: 70px;
+   box-shadow: 1px 1px 10px 1px silver;
+}
+.contact{
+    background-color:  rgb(10,24,61);
+    min-height: 500px;
+    margin-top: 220px;
 }
