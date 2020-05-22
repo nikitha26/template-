@@ -2,8 +2,7 @@ html {
     scroll-behavior: smooth;
   }
 .nav-item{
-    margin: 3px;
-    padding: 5px;
+    padding: 2px;
 }
 .navbar-brand{
     margin: 10px;
@@ -13,7 +12,7 @@ html {
 }
 .home{
     margin-top: 300px;
-    margin-left: 50px;
+    
 }
 h1 {
     color: rgb(179,9,84);
@@ -85,4 +84,7 @@ h3{
     background-color:  rgb(10,24,61);
     min-height: 500px;
     margin-top: 220px;
+}
+.backimg{
+    margin-top: 300px;
 }
